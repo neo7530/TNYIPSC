@@ -1,13 +1,73 @@
 # TNYIPSC (coming soon)
-MOTOTRBO &lt;=> HBLink Gateway
 
+## MOTOTRBO ⇄ HBLink Gateway
 
-This is a tiny gateway software to connect a Motorola DMR Repeater (like MOTOTRBO DR-3000) directly to a FreeDMR compatible DMR Server. (HBLink, MMDVM-Protocol)
+**TNYIPSC** is a lightweight gateway software that connects a Motorola DMR repeater (e.g., MOTOTRBO DR-3000) directly to a FreeDMR-compatible DMR server (HBLink, MMDVM protocol).
 
-Data / Voice / SDS / Talker-Alias / D-APRS supported - bidirectional.
+### ✅ Features
 
-Just download TNYIPSC for your desired platform, edit the config for your needs and run the software.
+- Bidirectional support for:
+  - Voice
+  - Data
+  - SDS (Short Data Service)
+  - Talker Alias
+  - D-APRS (Digital APRS)
+- Compatible with:
+  - MOTOTRBO repeaters
+  - FreeDMR networks
+  - HBLink servers
+  - MMDVM protocol
 
-- In unlicensed mode you'll be able to connect your Repeater to a HBLink Network and listen to any conversation.
-- The reverse way will be enabled by licensing the software with a license key.
-- also the program will refuse to work in daemon-mode and exites after 15 minutes in unlicensed mode.
+---
+
+## 🚀 Getting Started
+
+1. **Download** TNYIPSC for your preferred platform.
+2. **Edit** the configuration file to match your repeater and network settings.
+3. **Run** the software.
+
+---
+
+## 🔓 Licensing Modes
+
+### Unlicensed Mode
+- Allows connection from repeater to HBLink network.
+- You can **listen** to any conversation.
+- **Limitations**:
+  - Reverse transmission (IPSC → HBLink) is disabled.
+  - Daemon mode is not supported.
+  - Program exits automatically after 15 minutes.
+
+### Licensed Mode
+- Enables full bidirectional communication.
+- Supports daemon mode and long-term operation.
+- Requires a valid license key.
+
+---
+
+## 📁 Configuration
+
+Edit the configuration file (`tnyipsc.conf`) to set:
+
+- Repeater IP and port
+- HBLink server address port and password
+- Talkgroup mappings via Option-Line
+- etc...
+
+---
+
+## 📜 License
+
+TNYIPSC is proprietary software.  
+Unlicensed use is permitted for testing and monitoring purposes only.  
+For full functionality, a license key must be obtained from the developer.
+
+---
+
+## 🛠️ Support
+
+For documentation, updates, and licensing inquiries, visit:  
+this github repository.
+
+---
+
