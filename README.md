@@ -71,3 +71,77 @@ this github repository.
 
 ---
 
+# TNYIPSC (kommt bald)
+
+## MOTOTRBO ⇄ HBLink Gateway
+
+**TNYIPSC** ist eine schlanke Gateway-Software, die einen Motorola DMR-Repeater (z. B. MOTOTRBO DR-3000) direkt mit einem FreeDMR-kompatiblen DMR-Server verbindet (HBLink, MMDVM-Protokoll).
+
+### ✅ Funktionen
+
+- Bidirektionale Unterstützung für:
+  - Sprache
+  - Daten
+  - SDS (Short Data Service)
+  - Talker Alias
+  - D-APRS (Digital APRS)
+- Kompatibel mit:
+  - MOTOTRBO-Repeatern
+  - FreeDMR-Netzwerken
+  - HBLink-Servern
+  - MMDVM-Protokoll
+
+---
+
+## 🚀 Erste Schritte
+
+1. **Lade** TNYIPSC für deine bevorzugte Plattform herunter.
+2. **Bearbeite** die Konfigurationsdatei entsprechend deiner Repeater- und Netzwerk-Einstellungen.
+3. **Starte** die Software.
+
+---
+
+## 🔓 Lizenzmodi
+
+### Unlizenzierter Modus
+- Erlaubt die Verbindung vom Repeater zum HBLink-Netzwerk.
+- Du kannst **Gespräche mithören**.
+- **Einschränkungen**:
+  - Rückkanal (IPSC → HBLink) ist deaktiviert.
+  - Daemon-Modus wird nicht unterstützt.
+  - Das Programm beendet sich automatisch nach 15 Minuten.
+
+### Lizenzierter Modus
+- Aktiviert vollständige bidirektionale Kommunikation.
+- Unterstützt Daemon-Modus und Dauerbetrieb.
+- Erfordert einen gültigen Lizenzschlüssel.
+
+---
+
+## 📁 Konfiguration
+
+Bearbeite die Konfigurationsdatei (`tnyipsc.conf`) und stelle ein:
+
+- IP-Adresse und Port des Repeaters
+- Adresse des HBLink-Servers
+- Talkgroup-Zuordnungen
+- Logging-Einstellungen
+- Lizenzschlüssel (falls vorhanden)
+
+---
+
+## 📜 Lizenz
+
+TNYIPSC ist proprietäre Software.  
+Die unlizenzierte Nutzung ist ausschließlich zu Test- und Monitoring-Zwecken erlaubt.  
+Für den vollen Funktionsumfang muss ein Lizenzschlüssel vom Entwickler bezogen werden.
+
+---
+
+## 🛠️ Support
+
+Für Dokumentation, Updates und Lizenzanfragen besuche:  
+dieses github-repo.
+
+---
+
